@@ -37,3 +37,36 @@ body {
     color: white !important;
     font-weight: bold;
 }
+
+/*Cards*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    background-color: rgba(5, 144, 219, 0.579);
+    color: white;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.card:hover {
+    transform: scale(0.97);
+}
+
+img {
+    height: 185px;
+    border-radius: 15px;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
