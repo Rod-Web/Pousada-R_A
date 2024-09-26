@@ -37,3 +37,35 @@ body {
     color: white !important;
     font-weight: bold;
 }
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.h2, .informacoes h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.p, .informacoes p {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.informacoes p {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+
+.rodape {
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #ffffff;
+}
