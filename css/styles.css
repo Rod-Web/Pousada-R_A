@@ -10,10 +10,10 @@ body {
     background: linear-gradient(to right,  rgb(0, 82, 204), rgb(4, 0, 219));
     border: solid 1px white;
 }
-            /*Logo*/
+    /*Logo*/
 .logo {
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
 }
             /*Responsividade*/
 .navbar-toggler {
