@@ -1,6 +1,7 @@
 body {
     background: linear-gradient(to right, rgb(0, 71, 170), rgb(0, 0, 133));
     color: white;
+    height: 100%;
 }
 
 /* Navbar */
@@ -48,19 +49,25 @@ main {
 
 .h2, .informacoes h2 {
     margin-bottom: 20px;
-    font-size: 1.8em;
+    font-size: 2em;
 }
 
 .p, .informacoes p {
     margin-bottom: 10px;
-    font-size: 1em;
+    font-size: 2em;
 }
 
 .informacoes p {
     margin-bottom: 8px;
-    font-size: 1.1em;
+    font-size: 1.6em;
 }
 
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 75vh;
+}
 .rodape {
     background-color: blue;
     text-align: center;
