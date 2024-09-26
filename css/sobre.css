@@ -40,11 +40,12 @@ body {
 
 .sobre {
     font-size: 25px;
+    margin: 40px;
     text-align: justify;
+    line-height: 1.5;
 }
 
-.sobre img {
-    height: 900px;
-    width: 1800px;
-    margin-top: -190px;
+.sobre p {
+    display: flex;
+    flex-wrap: wrap;
 }
