@@ -37,3 +37,15 @@ body {
     color: white !important;
     font-weight: bold;
 }
+
+.quartos img{
+    margin: 20px;
+}
+
+.quarto  {
+    display: flex;
+}
+
+.quarto p {
+    margin-top: 20px;
+}
