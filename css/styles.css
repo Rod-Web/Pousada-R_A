@@ -39,28 +39,65 @@ body {
     font-weight: bold;
 }
 
+h5 {
+    display: inline;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.427);
+}
+
 /* Apresentação */
 
 .apresentacao {
-
+    font-size: 2em;
     text-align: justify;
     transform: scale(0.9);
 }
 
 /* Carrossel */
 
+.carousel-inner {
+    padding-left: 25%;
+}
+
+.carousel-item {
+    border: none;
+}
+
+.d-block {
+    width: 70% !important;
+    border-radius: 50px ;
+    transition: 1s;
+}
+
+/* animação*/
+
+.d-block:hover, .oferta-img:hover {
+    transform: scale(0.9);
+}
 
 /* Oferta */
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
 
 .oferta {
     display: flex;
     justify-content: center;
+    cursor: default;
+
 }
 
 .oferta-img {
     width: 60%;
     border-radius: 5%;
+    cursor: pointer;
+    transition: 1s;
 }
+
 
 /* Footer */
 .rodape {
