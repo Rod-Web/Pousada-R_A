@@ -37,3 +37,14 @@ body {
     color: white !important;
     font-weight: bold;
 }
+
+.sobre {
+    font-size: 25px;
+    text-align: justify;
+}
+
+.sobre img {
+    height: 900px;
+    width: 1800px;
+    margin-top: -190px;
+}
